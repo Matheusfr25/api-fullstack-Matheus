@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Escola</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Sistema Escolar</h1>
+
+<h2>Cadastrar Aluno</h2>
+<input type="text" id="nome" placeholder="Nome">
+<input type="number" id="idade" placeholder="Idade">
+<button onclick="cadastrarAluno()">Cadastrar</button>
+
+<h2>Lista de Alunos</h2>
+<ul id="listaAlunos"></ul>
+
+<hr>
+
+<h2>Lançar Nota</h2>
+<input type="number" id="alunoId" placeholder="ID do aluno">
+<input type="text" id="disciplina" placeholder="Disciplina">
+<input type="number" id="nota" placeholder="Nota">
+<button onclick="cadastrarNota()">Salvar Nota</button>
+
+<h2>Notas</h2>
+<ul id="listaNotas"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
